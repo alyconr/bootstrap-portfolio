@@ -1,0 +1,124 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  background-color: #e0dddd !important;
+}
+
+.logo {
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  color: #6070ff !important;
+  margin: 0 24px;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 15px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 20px !important;
+}
+
+.navbar-nav {
+  visibility: hidden;
+}
+
+.nav-link:hover {
+  color: #6070ff !important;
+}
+
+div.ms-5 {
+  margin-left: 9rem !important;
+}
+
+div.me-5 {
+  margin-right: 12rem !important;
+}
+
+.btn {
+  border: none !important;
+}
+
+#headline {
+  max-width: 100%;
+  height: 65rem;
+  background-image: url(./images/header-shapes\ mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: white;
+  border-radius: 0 0 0 60px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 40px !important;
+  color: #172b4d !important;
+  line-height: 52px !important;
+}
+
+p {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  color: #344563 !important;
+}
+
+h1.mt-5 {
+  margin-top: 12rem !important;
+}
+
+h3.fs-1 {
+  font-size: 3.75rem !important;
+}
+
+a.ms-4 {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  color: #7f8cff !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    visibility: visible;
+  }
+  .logo {
+    margin: 0 0 0 12rem !important;
+  }
+  #headline {
+    background: url(./images/Header\ bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top-right;
+    border-radius: 0 0 0 60px;
+    background-color: #fff;
+    height: 65rem;
+  }
+  h1.mt-5, .ms-4 {
+    margin: 12rem 0 0 12rem !important;
+  }
+  p.ms-4 {
+    margin: 0 15rem 0 12rem !important;
+  }
+  a.ms-4 {
+    margin: 0 15rem 0 12rem !important;
+  }
+  ul {
+    margin: 0 15rem 0 9.9rem !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
