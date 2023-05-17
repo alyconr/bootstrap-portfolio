@@ -1,6 +1,7 @@
 @import './node_modules/bootstrap/scss/functions';
 @import './node_modules/bootstrap/scss/variables';
 @import './node_modules/bootstrap/scss/mixins/breakpoints';
+@import './node_modules/bootstrap/scss/bootstrap.scss';
 
 $box-sizing: border-box;
 $fontsize-html : 62.5%;
@@ -10,7 +11,7 @@ $background-color: #e0dddd;
 $font-weight-bold: 500;
 $gap: 2rem;
 $line-height: 20px;
-$line-height-mobile: 52px;  
+$line-height-mobile: 52px;
 $font-size: 15px;
 $font-style: normal;
 $font-weight-logo: 700;
@@ -28,9 +29,10 @@ $color-logo: #6070ff;
 $margin-logo: 0 24px;
 $color-nav: #070707;
 $spacer: 3rem;
-$margin-h1-text: 114px 24px 0 24px 0;
-$margin-p-text: 0 24px 0 24px !important;
+$margin-h1-text: 114px 24px 0 24px;
+$margin-p-text: 0 24px 0 24px;
 $color-h1: #172b4d;
+$font-style: normal;
 
 *,
 ::after,
@@ -45,43 +47,37 @@ html {
 body {
     font-family: $fontfamily-base;
     margin: $margin-base;
-    background-color: $background-color !important;
+    background-color: $background-color;
 }
 
 .logo {
-    font-weight: $font-weight-logo !important;
-    font-size: $font-size-logo !important;
-    color: $color-logo !important;
+    font-weight: $font-weight-logo ;
+    font-size: $font-size-logo ;
+    color: $color-logo ;
     margin: $margin-logo;
-    font-family: $fontfamily-base !important;
+    font-family: $fontfamily-base ;
 }
 
-.nav-link {
-    font-family: $fontfamily-base !important;
-    font-size: $font-size !important;
-    font-style: $font-style !important;
-    font-weight: $font-weight-bold !important;
-    line-height: $line-height !important;
+.nav-custom {
+    font-family: $fontfamily-base ;
+    font-size: $font-size ;
+    font-style: $font-style ;
+    font-weight: $font-weight-bold ;
+    line-height: $line-height ;
 
 
 }
+
 .navbar-nav {
     visibility: hidden;
 }
+
 .nav-link:hover {
-    color: $color-logo !important;
-}
-
-div.ms-5 {
-    margin-left: ($spacer * 3) !important;
-}
-
-div.me-5 {
-    margin-right: ($spacer * 4) !important;
+    color: $color-logo ;
 }
 
 .btn {
-    border: none !important;
+    border: none;
 
 }
 
@@ -96,38 +92,38 @@ div.me-5 {
 
 }
 
-h1 {
-
-    font-family: $fontfamily-base !important;
-    font-weight: $font-weight-logo !important;
-    font-size: $font-size-mobile !important;
-    color: $color-h1 !important;
-    line-height: $line-height-mobile !important;
+.text-start {
+    font-family: $fontfamily-base ;
+    font-weight: $font-weight-logo ;
+    font-size: $font-size-mobile;
+    color: $color-h1 ;
+    line-height: $line-height-mobile ;
+    margin: ($spacer * 4) 0 0 ($spacer * 1);
 }
 
 p {
-    font-family: $fontfamily-base !important;
-    font-size: $font-size-p !important;
-    font-weight: $font-weight-p !important;
-    line-height: $line-height-p !important;
-    color: $color-p !important;
+    font-family: $fontfamily-base ;
+    font-size: $font-size-p ;
+    font-weight: $font-weight-p ;
+    line-height: $line-height-p ;
+    color: $color-p ;
+    margin: 0 0 0 ($spacer * 1);
 
 }
 
-h1.mt-5 {
-    margin-top: ($spacer * 4) !important;
-}
-h3.fs-1 {
-    font-size: ($spacer * 1.25) !important;
-}
-
-a.ms-4 {
-    font-size: $font-size-connet !important;
-    font-weight: $font-weight-connect !important;
-    line-height: $line-height-connect !important;
-    color: $color-connect !important;
+a.custom-margen {
+    font-family: $fontfamily-base ;
+    font-size: $font-size-connet ;
+    font-weight: $font-weight-connect ;
+    line-height: $line-height-connect ;
+    color: $color-connect ;
+    margin: 0 0 0 ($spacer * 1);
     
 }
+ul.custom-margen {
+    margin: 0 0 0 ($spacer * 0.4);
+}
+
 
 @include media-breakpoint-up(md) {
 
@@ -137,34 +133,37 @@ a.ms-4 {
     }
 
     .logo {
-        margin: 0 0 0 ($spacer * 4) !important;
+        margin: 0 0 0 ($spacer * 4);
     }
-  #headline {
-    background: url(./images/Header\ bg.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top-right;
-    border-radius: 0 0 0 60px;
-    background-color: #fff;
-    height: 65rem;
-  }
 
-  h1.mt-5, .ms-4 {
-    margin: ($spacer * 4) 0 0 ($spacer * 4) !important;
-  }
-  p.ms-4 {
-    margin: 0 ($spacer * 5) 0 ($spacer * 4) !important;
-  }
-  a.ms-4  {
-    margin: 0 ($spacer * 5) 0 ($spacer * 4) !important;
-  }
-  ul {
-    margin: 0 ($spacer * 5) 0 ($spacer * 3.3) !important;
-  }
+    #headline {
+        background: url(./images/Header\ bg.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top-right;
+        border-radius: 0 0 0 60px;
+        background-color: #fff;
+        height: 65rem;
+    }
 
+    h1.custom-margen {
+        margin: ($spacer * 4) 0 0 ($spacer * 4);
+    }
 
+    p.custom-margen {
+        margin: 0 ($spacer * 5) 0 ($spacer * 4);
+    }
+
+    a.custom-margen {
+        margin: ($spacer * 0.5) ($spacer * 5) 0 ($spacer * 4);
+        font-size: $font-size-connet;
+        font-weight: $font-weight-connect;
+        line-height: $line-height-connect;
+        font-family: $font-family-base;
+        font-style: $font-style;
+    }
+
+    ul {
+        margin: 0 ($spacer * 5) 0 ($spacer * 3.3) !important;
+    }
 }
-
-
-
-
