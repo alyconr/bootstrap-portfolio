@@ -50,15 +50,16 @@ body {
     background-color: $background-color;
 }
 
-.logo {
+a.logo {
     font-weight: $font-weight-logo ;
     font-size: $font-size-logo ;
     color: $color-logo ;
     margin: $margin-logo;
     font-family: $fontfamily-base ;
+    margin: 0 0 0 ($spacer * 4);
 }
 
-.nav-custom {
+a.nav-custom {
     font-family: $fontfamily-base ;
     font-size: $font-size ;
     font-style: $font-style ;
