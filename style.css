@@ -10741,7 +10741,7 @@ a.logo {
   color: #6070ff;
   margin: 0 24px;
   font-family: "Poppins", sans-serif;
-  margin: 0 0 0 12rem;
+  margin: 0 0 0 3rem;
 }
 
 a.nav-custom {
@@ -10806,6 +10806,14 @@ ul.custom-margen {
 }
 
 @media (min-width: 768px) {
+  a.logo {
+    font-weight: 700;
+    font-size: 18px;
+    color: #6070ff;
+    margin: 0 24px;
+    font-family: "Poppins", sans-serif;
+    margin: 0 0 0 12rem;
+  }
   .navbar-nav {
     visibility: visible;
   }

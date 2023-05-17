@@ -56,7 +56,7 @@ a.logo {
     color: $color-logo ;
     margin: $margin-logo;
     font-family: $fontfamily-base ;
-    margin: 0 0 0 ($spacer * 4);
+    margin: 0 0 0 ($spacer * 1);
 }
 
 a.nav-custom {
@@ -128,7 +128,14 @@ ul.custom-margen {
 
 @include media-breakpoint-up(md) {
 
-
+a.logo {
+    font-weight: $font-weight-logo ;
+    font-size: $font-size-logo ;
+    color: $color-logo ;
+    margin: $margin-logo;
+    font-family: $fontfamily-base ;
+    margin: 0 0 0 ($spacer * 4);
+}
     .navbar-nav {
         visibility: visible;
     }
