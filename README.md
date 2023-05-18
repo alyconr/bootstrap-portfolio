@@ -38,9 +38,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [PERSONAL PORTFOLIO PROJECT] <a name="about-project"></a>
+# 📖 [BOOSTRAP PORTFOLIO PROJECT] <a name="about-project"></a>
 
-  **[Personal Portfolio Project]** This is a personal portfolio project version using bootsTrap and SCSS . For lenarning porpse I have just implementes the header, headline and one card section.
+  **[Bootsrap Portfolio Project]** This is a personal portfolio project version using bootsTrap and SCSS . For lenarning porpse I have just implementes the header, headline and one card section.
 
 ## 🛠 Built With <a name="built-with"></a>
 <p> This project was built using:
@@ -128,7 +128,7 @@ To run this project  you need the following tools:
 Clone this repository to your desired folder:
 ```sh
  cd Personal-Portfolio-Project
- git clone https://github.com/alyconr/Personal-Portfolio-Project
+ git clone https://github.com/alyconr/bootstrap-Portfolio
 ```
 
 
@@ -138,7 +138,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/Personal-Portfolio-Project.git
+  git clone git@github.com:myaccount/bootstrap-Portfolio.git
 ```
 
 
