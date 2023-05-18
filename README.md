@@ -40,7 +40,7 @@
 
 # 📖 [BOOSTRAP PORTFOLIO PROJECT] <a name="about-project"></a>
 
-  **[Bootsrap Portfolio Project]** This is a personal portfolio project version using bootsTrap and SCSS . For lenarning porpse I have just implementes the header, headline and one card section.
+  **[Bootsrap Portfolio Project]** This is a personal portfolio project version using bootsTrap and SCSS . For only learning porpose I have just implemented the header, headline and one card section.
 
 ## 🛠 Built With <a name="built-with"></a>
 <p> This project was built using:
