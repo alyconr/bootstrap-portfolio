@@ -2,6 +2,7 @@
 @import './node_modules/bootstrap/scss/variables';
 @import './node_modules/bootstrap/scss/mixins/breakpoints';
 @import './node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 $box-sizing: border-box;
 $fontsize-html : 62.5%;
@@ -118,7 +119,7 @@ a.custom-margen {
     font-weight: $font-weight-connect ;
     line-height: $line-height-connect ;
     color: $color-connect ;
-    margin: 0 0 0 ($spacer * 1);
+    
     
 }
 ul.custom-margen {
@@ -144,16 +145,6 @@ a.logo {
         margin: 0 0 0 ($spacer * 4);
     }
 
-    #headline {
-        background: url(./images/Header\ bg.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: top-right;
-        border-radius: 0 0 0 60px;
-        background-color: #fff;
-        height: 65rem;
-    }
-
     h1.custom-margen {
         margin: ($spacer * 4) 0 0 ($spacer * 4);
     }
@@ -171,7 +162,11 @@ a.logo {
         font-style: $font-style;
     }
 
-    ul {
-        margin: 0 ($spacer * 5) 0 ($spacer * 3.3) !important;
-    }
+ #custom-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
 }
