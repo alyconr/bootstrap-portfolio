@@ -7,7 +7,7 @@
   <img src="./images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>BOOTSRAP PORTFOLIO PROJECT</b></h3>
+  <h3><b>BOOTSTRAP PORTFOLIO PROJECT</b></h3>
 
 </div>
 
